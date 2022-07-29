@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin:0;padding:0} 
+		canvas{display: block}
+		#container{width: 100vw;height: 100vh;opacity:0;}
+		#paper{
+			border: 10px solid red;
+			width: 100vw;
+			height: 100vh;
+			position: fixed;
+			pointer-events: none;
+			z-index: 100;
+			left: 0;
+			top: 0;
+		}
+		canvas,#container{
+			transition: all 1s linear;
+		}
+    </style>
+</head>
+<body>
+	<div id="container"></div>
+	<canvas id="paper"></canvas>
+	<script src="js/app.js"></script>
+</body>
+</html>

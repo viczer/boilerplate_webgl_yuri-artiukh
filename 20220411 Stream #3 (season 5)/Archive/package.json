@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@parcel/config-default": "^2.4.1",
+    "gsap": "^3.10.2",
+    "lil-gui": "^0.16.1",
+    "three": "^0.139.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.4.1"
+  }
+}
